@@ -5,6 +5,7 @@ def obsah_obdelniku():
         obsah = a * b
         print(f"Obsah obdélníku o stranách {a} a {b} je {obsah}")
     else:
-        print("Chyba")
+        print("Chyba, opakuj zadání čísel!")
+        obsah_obdelniku()
 
 obsah_obdelniku()
